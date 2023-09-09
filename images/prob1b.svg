@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="386.86325mm"
+   height="197.08171mm"
+   viewBox="0 0 386.86325 197.08172"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   sodipodi:docname="prob1b.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#272822"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.85674603"
+     inkscape:cx="692.73738"
+     inkscape:cy="370.00463"
+     inkscape:window-width="1680"
+     inkscape:window-height="1020"
+     inkscape:window-x="0"
+     inkscape:window-y="30"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-288.2208,-22.397188)">
+    <g
+       id="f1"
+       class="fragment fade-up">
+      <path
+         id="path15"
+         style="fill:none;stroke:#a6e22e;stroke-width:2;stroke-linecap:round;stroke-linejoin:round"
+         d="m 376.49027,187.59709 -0.35742,17.62188 m -16.76304,-1.52616 17.12046,-16.42457 15.17172,16.38335"
+         sodipodi:nodetypes="ccccc" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:14.1111px;font-family:'Meslo LG L';-inkscape-font-specification:'Meslo LG L, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#f8f8f2;stroke-width:2.13528;stroke-linecap:round;stroke-linejoin:round"
+         x="368.99875"
+         y="184.16768"
+         id="text1"><tspan
+           sodipodi:role="line"
+           id="tspan1"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:14.1111px;font-family:'Meslo LG L';-inkscape-font-specification:'Meslo LG L, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#f8f8f2;stroke-width:2.13528"
+           x="368.99875"
+           y="184.16768">17</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:14.1111px;font-family:'Meslo LG L';-inkscape-font-specification:'Meslo LG L, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:none;stroke:#a6e22e;stroke-width:2;stroke-linecap:round;stroke-linejoin:round"
+       x="288.18607"
+       y="201.13647"
+       id="text13"><tspan
+         sodipodi:role="line"
+         id="tspan13"
+         style="stroke-width:2"
+         x="288.18607"
+         y="201.13647" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:14.1111px;font-family:'Meslo LG L';-inkscape-font-specification:'Meslo LG L, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#f8f8f2;stroke-width:2.13528;stroke-linecap:round;stroke-linejoin:round"
+       x="286.92545"
+       y="217.61166"
+       id="text14"><tspan
+         sodipodi:role="line"
+         id="tspan14"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:14.1111px;font-family:'Meslo LG L';-inkscape-font-specification:'Meslo LG L, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#f8f8f2;stroke-width:2.13528"
+         x="286.92545"
+         y="217.61166">10 ** ((9 + 8) % 7) + 6 * (5 + 4 + 3 // 2 + 1)</tspan></text>
+    <g
+       id="f2"
+       class="fragment fade-up">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:14.1111px;font-family:'Meslo LG L';-inkscape-font-specification:'Meslo LG L, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#f8f8f2;stroke-width:2.13528;stroke-linecap:round;stroke-linejoin:round"
+         x="410.35709"
+         y="150.7426"
+         id="text15"><tspan
+           sodipodi:role="line"
+           id="tspan15"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:14.1111px;font-family:'Meslo LG L';-inkscape-font-specification:'Meslo LG L, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#f8f8f2;stroke-width:2.13528"
+           x="410.35709"
+           y="150.7426">3</tspan></text>
+      <path
+         id="path17"
+         style="fill:none;stroke:#66d9ef;stroke-width:2;stroke-linecap:round;stroke-linejoin:round"
+         d="m 413.75562,155.36496 3.38693,47.91926 m -39.31449,-32.13614 35.92756,-16.23462 21.63853,49.06259"
+         sodipodi:nodetypes="ccccc" />
+    </g>
+    <g
+       id="f3"
+       class="fragment fade-up">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:14.1111px;font-family:'Meslo LG L';-inkscape-font-specification:'Meslo LG L, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#f8f8f2;stroke-width:2.13528;stroke-linecap:round;stroke-linejoin:round"
+         x="322.09427"
+         y="115.68531"
+         id="text17"><tspan
+           sodipodi:role="line"
+           id="tspan17"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:14.1111px;font-family:'Meslo LG L';-inkscape-font-specification:'Meslo LG L, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#f8f8f2;stroke-width:2.13528"
+           x="322.09427"
+           y="115.68531">1000</tspan></text>
+      <path
+         id="path19"
+         style="fill:none;stroke:#a6e22e;stroke-width:2;stroke-linecap:round;stroke-linejoin:round"
+         d="m 340.61069,119.61174 -18.71885,85.15344 m 91.64847,-67.1861 -72.92962,-17.96734 -44.74221,84.37576"
+         sodipodi:nodetypes="ccccc" />
+    </g>
+    <g
+       id="f4"
+       class="fragment fade-up">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:14.1111px;font-family:'Meslo LG L';-inkscape-font-specification:'Meslo LG L, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#f8f8f2;stroke-width:2.13528;stroke-linecap:round;stroke-linejoin:round"
+         x="534.03906"
+         y="184.08156"
+         id="text19"><tspan
+           sodipodi:role="line"
+           id="tspan19"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:14.1111px;font-family:'Meslo LG L';-inkscape-font-specification:'Meslo LG L, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#f8f8f2;stroke-width:2.13528"
+           x="534.03906"
+           y="184.08156">9</tspan></text>
+      <path
+         id="path21"
+         style="fill:none;stroke:#66d9ef;stroke-width:2;stroke-linecap:round;stroke-linejoin:round"
+         d="m 537.75957,187.20275 -0.12984,17.36313 m -16.9159,-0.42468 17.04574,-16.79741 15.81662,17.48019"
+         sodipodi:nodetypes="ccccc" />
+    </g>
+    <g
+       id="f5"
+       class="fragment fade-up">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:14.1111px;font-family:'Meslo LG L';-inkscape-font-specification:'Meslo LG L, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#f8f8f2;stroke-width:2.13528;stroke-linecap:round;stroke-linejoin:round"
+         x="606.93066"
+         y="184.16768"
+         id="text21"><tspan
+           sodipodi:role="line"
+           id="tspan21"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:14.1111px;font-family:'Meslo LG L';-inkscape-font-specification:'Meslo LG L, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#f8f8f2;stroke-width:2.13528"
+           x="606.93066"
+           y="184.16768">1</tspan></text>
+      <path
+         id="path22"
+         style="fill:none;stroke:#a6e22e;stroke-width:2;stroke-linecap:round;stroke-linejoin:round"
+         d="m 611.08099,187.76104 -0.14762,16.80484 m -22.1277,-0.42468 22.27532,-16.38016 19.07794,17.06294"
+         sodipodi:nodetypes="ccccc" />
+    </g>
+    <g
+       id="f6"
+       class="fragment fade-up">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:14.1111px;font-family:'Meslo LG L';-inkscape-font-specification:'Meslo LG L, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#f8f8f2;stroke-width:2.13528;stroke-linecap:round;stroke-linejoin:round"
+         x="565.00842"
+         y="150.7426"
+         id="text22"><tspan
+           sodipodi:role="line"
+           id="tspan22"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:14.1111px;font-family:'Meslo LG L';-inkscape-font-specification:'Meslo LG L, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#f8f8f2;stroke-width:2.13528"
+           x="565.00842"
+           y="150.7426">10</tspan></text>
+      <path
+         id="path24"
+         style="fill:none;stroke:#66d9ef;stroke-width:2;stroke-linecap:round;stroke-linejoin:round"
+         d="m 573.18526,155.01056 -1.41904,50.48728 m -33.36126,-33.96305 34.7803,-16.52423 35.88652,15.17954"
+         sodipodi:nodetypes="ccccc" />
+    </g>
+    <g
+       id="f7"
+       class="fragment fade-up">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:14.1111px;font-family:'Meslo LG L';-inkscape-font-specification:'Meslo LG L, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#f8f8f2;stroke-width:2.13528;stroke-linecap:round;stroke-linejoin:round"
+         x="622.7981"
+         y="115.6922"
+         id="text24"><tspan
+           sodipodi:role="line"
+           id="tspan24"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:14.1111px;font-family:'Meslo LG L';-inkscape-font-specification:'Meslo LG L, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#f8f8f2;stroke-width:2.13528"
+           x="622.7981"
+           y="115.6922">11</tspan></text>
+      <path
+         id="path26"
+         style="fill:none;stroke:#a6e22e;stroke-width:2;stroke-linecap:round;stroke-linejoin:round"
+         d="m 630.68821,119.09171 16.8076,86.26118 m -73.18668,-67.82801 56.37908,-18.43317 32.77129,84.85173"
+         sodipodi:nodetypes="ccccc" />
+    </g>
+    <g
+       id="f8"
+       class="fragment fade-up">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:14.1111px;font-family:'Meslo LG L';-inkscape-font-specification:'Meslo LG L, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#f8f8f2;stroke-width:2.13528;stroke-linecap:round;stroke-linejoin:round"
+         x="541.40704"
+         y="77.802795"
+         id="text26"><tspan
+           sodipodi:role="line"
+           id="tspan26"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:14.1111px;font-family:'Meslo LG L';-inkscape-font-specification:'Meslo LG L, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#f8f8f2;stroke-width:2.13528"
+           x="541.40704"
+           y="77.802795">66</tspan></text>
+      <path
+         id="path28"
+         style="fill:none;stroke:#66d9ef;stroke-width:2;stroke-linecap:round;stroke-linejoin:round"
+         d="M 550.96624,80.781579 498.4606,204.87135 m -19.22949,-0.69008 71.73513,-123.399691 78.47634,19.131178"
+         sodipodi:nodetypes="ccccc" />
+    </g>
+    <g
+       id="f9"
+       class="fragment fade-up">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:14.1111px;font-family:'Meslo LG L';-inkscape-font-specification:'Meslo LG L, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#f8f8f2;stroke-width:2.13528;stroke-linecap:round;stroke-linejoin:round"
+         x="459.78134"
+         y="32.87027"
+         id="text28"><tspan
+           sodipodi:role="line"
+           id="tspan28"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:14.1111px;font-family:'Meslo LG L';-inkscape-font-specification:'Meslo LG L, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#f8f8f2;stroke-width:2.13528"
+           x="459.78134"
+           y="32.87027">1066</tspan></text>
+      <path
+         id="path30"
+         style="fill:none;stroke:#a6e22e;stroke-width:2;stroke-linecap:round;stroke-linejoin:round"
+         d="M 478.01061,35.678966 461.12371,204.96391 M 341.8415,101.66954 478.01061,35.678966 547.56708,63.571859"
+         sodipodi:nodetypes="ccccc" />
+    </g>
+  </g>
+</svg>
