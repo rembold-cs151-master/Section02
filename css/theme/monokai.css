@@ -425,6 +425,19 @@ margin-left: 1em;*/ }
 	border-color: var(--red);
 }
 
+.badcode::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  background-image: url('images/badcode.png');
+  background-size: 100% 100%;
+  height: 4em;
+  width: 3em;
+  right:20px;
+  bottom:10px;
+
+}
+
 .inlinecode {
 	display: block !important;
 	margin: auto;
