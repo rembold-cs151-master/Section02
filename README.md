@@ -1,2 +1,2 @@
-# section_template
-A template file for generating slides and content for a section meeting
+# Section02
+Materials for section 2, dealing with basic functions, variables, and control statements
