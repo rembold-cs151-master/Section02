@@ -42,7 +42,7 @@ content_url: https://github.com/rembold-cs151-master/Section02
 - Write a python function `max3(a, b, c)` that returns the largest of its three arguments but does so without calling any built-in Python functions.
 
 
-## A Buggy First Attempt
+## A Possible Buggy First Attempt
 ```{.mypython .badcode style='font-size:.8em'}
 def max3(a, b, c):
     """Returns the largest of the three arguments a, b, and c."""
@@ -106,6 +106,35 @@ def max2(a, b):
 
 ::::
 ::::::
+
+## The Hailstone Function
+::::::cols
+::::{.col style='font-size:.9em'}
+- You task in this problem is to write a function `hailstone` which takes as an argument the starting value of the sequence.
+- It should then print off each number of the sequence on a new line, ending with the number one
+- Upon reaching one, your function should _return_ the number of steps it took to reach one from the starting value
+::::
+
+::::col
+```{.python-repl style='max-height:900px; font-size:.8em'}
+>>> steps = hailstone(12)
+12
+6
+3
+10
+5
+16
+8
+4
+2
+1
+>>> print(steps)
+9
+```
+
+::::
+::::::
+
 
 ## The Collatz Conjecture
 ::::::{.cols style='align-items:center'}

@@ -624,8 +624,8 @@ that returns the largest of its three arguments but does so without
 calling any built-in Python functions.</li>
 </ul>
 </section>
-<section id="a-buggy-first-attempt" class="slide level2">
-<h2>A Buggy First Attempt</h2>
+<section id="a-possible-buggy-first-attempt" class="slide level2">
+<h2>A Possible Buggy First Attempt</h2>
 <pre ><code class="mypython badcode" style="font-size:.8em">def max3(a, b, c):
     """Returns the largest of the three arguments a, b, and c."""
     if a > b and a > c:
@@ -694,6 +694,37 @@ end of the process.</li>
 <div class="col">
 <p><img data-src="./images/GodelEscherBach.png"
 style="width:90.0%" /></p>
+</div>
+</div>
+</section>
+<section id="the-hailstone-function" class="slide level2">
+<h2>The Hailstone Function</h2>
+<div class="cols">
+<div class="col" style="font-size:.9em">
+<ul>
+<li>You task in this problem is to write a function
+<code class="python">hailstone</code> which takes as an argument the
+starting value of the sequence.</li>
+<li>It should then print off each number of the sequence on a new line,
+ending with the number one</li>
+<li>Upon reaching one, your function should <em>return</em> the number
+of steps it took to reach one from the starting value</li>
+</ul>
+</div>
+<div class="col">
+<pre ><code class="python-repl" style="max-height:900px; font-size:.8em">>>> steps = hailstone(12)
+12
+6
+3
+10
+5
+16
+8
+4
+2
+1
+>>> print(steps)
+9</code></pre>
 </div>
 </div>
 </section>
