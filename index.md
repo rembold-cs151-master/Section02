@@ -42,8 +42,8 @@ content_url: https://github.com/rembold-cs151-master/Section02
 - Write a python function `max3(a, b, c)` that returns the largest of its three arguments but does so without calling any built-in Python functions.
 
 
-## A Buggy First Attempt
-```{.mypython .badcode}
+## A Possible Buggy First Attempt
+```{.mypython .badcode style='font-size:.8em'}
 def max3(a, b, c):
     """Returns the largest of the three arguments a, b, and c."""
     if a > b and a > c:
@@ -58,7 +58,7 @@ def max3(a, b, c):
 
 
 ## Using Nested `if` Statements
-```{.mypython style='max-height:900px'}
+```{.mypython style='max-height:900px; font-size:.8em'}
 def max3(a, b, c):
     """Returns the largest of the three arguments a, b, and c."""
     if a > b:
@@ -74,7 +74,7 @@ def max3(a, b, c):
 ```
 
 ## Using Decomposition
-```{.mypython style='max-height:900px'}
+```{.mypython style='max-height:900px; font-size:.8em'}
 def max3(a, b, c):
     """Returns the largest of the three arguments a, b, and c."""
     return max2( a, max2(b, c))
@@ -90,7 +90,7 @@ def max2(a, b):
 ## Problem 3
 ::::::cols
 ::::{.col style='flex-grow:2'}
-:::incremental
+:::{.incremental style='font-size:.9em'}
 - As far as I know, the only computer scientist to win a Pulitzer prize is Douglas Hofstadter, who won one for _Gödel, Escher, Bach_, a delightful exploration of the intricacies of computation.
 - Hofstadter’s book includes many famous mathematical puzzles, including this one:
   - Pick some positive integer and call it n.
@@ -107,8 +107,37 @@ def max2(a, b):
 ::::
 ::::::
 
-## The Collatz Conjecture
+## The Hailstone Function
 ::::::cols
+::::{.col style='font-size:.9em'}
+- You task in this problem is to write a function `hailstone` which takes as an argument the starting value of the sequence.
+- It should then print off each number of the sequence on a new line, ending with the number one
+- Upon reaching one, your function should _return_ the number of steps it took to reach one from the starting value
+::::
+
+::::col
+```{.python-repl style='max-height:900px; font-size:.8em'}
+>>> steps = hailstone(12)
+12
+6
+3
+10
+5
+16
+8
+4
+2
+1
+>>> print(steps)
+9
+```
+
+::::
+::::::
+
+
+## The Collatz Conjecture
+::::::{.cols style='align-items:center'}
 ::::col
 ![](https://imgs.xkcd.com/comics/collatz_conjecture.png){width=50%}
 
@@ -125,36 +154,35 @@ The fascinating thing about this problem is that no one has been able to prove t
 
 <table id="HailstoneTable">
 <tbody style="border:none;">
-<tr><td>
-<div id="HailstoneTrace" style="margin:0px; padding:0px;"></div>
-</td></tr>
-<tr><td>
-<div id="HailstoneBanner" style="margin:0px; padding:0px;">Console</div>
-</td></tr>
-<tr><td>
-<div id="HailstoneConsole" style="margin:0px; padding:0px;"></div>
-</td></tr>
+<tr><td> <div id="HailstoneTrace" style="margin:0px; padding:0px;"></div> </td></tr>
 <tr>
-<td style="text-align:center;">
-<table class="CTControlStrip">
-<tbody>
-<tr>
-<td>
-<img id=HailstoneTraceStepInButton
-     class="CTButton"
-     src="images/StepInControl.png"
-     alt="StepInButton" />
-</td>
-<td>
-<img id=HailstoneTraceResetButton
-     class="CTButton"
-     src="images/ResetControl.png"
-     alt="ResetButton" />
-</td>
-</tr>
-</tbody>
-</table>
-</td>
+  <td>
+  <div style="display: flex">
+  <table style='flex-grow: 2'>
+  <tbody>
+  <tr><td style='padding:0px'> <div id="HailstoneBanner" style="margin:0px; padding:0px;">Console</div> </td></tr>
+  <tr><td style='padding:0px'> <div id="HailstoneConsole" style="margin:0px; padding:0px;"></div> </td></tr>
+  </tbody>
+  </table>
+  <table class="CTControlStrip" style='flex-grow: 1'>
+  <tbody>
+  <tr>
+  <td>
+  <img id=HailstoneTraceStepInButton
+       class="CTButton"
+       src="images/StepInControl.png"
+       alt="StepInButton" />
+  </td>
+  <td>
+  <img id=HailstoneTraceResetButton
+       class="CTButton"
+       src="images/ResetControl.png"
+       alt="ResetButton" />
+  </td>
+  </tr>
+  </tbody>
+  </table>
+  </div>
 </tr>
 </tbody>
 </table>

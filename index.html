@@ -625,9 +625,9 @@ that returns the largest of its three arguments but does so without
 calling any built-in Python functions.</li>
 </ul>
 </section>
-<section id="a-buggy-first-attempt" class="slide level2">
-<h2>A Buggy First Attempt</h2>
-<pre ><code class="mypython badcode">def max3(a, b, c):
+<section id="a-possible-buggy-first-attempt" class="slide level2">
+<h2>A Possible Buggy First Attempt</h2>
+<pre ><code class="mypython badcode" style="font-size:.8em">def max3(a, b, c):
     """Returns the largest of the three arguments a, b, and c."""
     if a > b and a > c:
         return a
@@ -642,7 +642,7 @@ would this implementation of <code class="python">max3</code> fail?</li>
 </section>
 <section id="using-nested-if-statements" class="slide level2">
 <h2>Using Nested <code class="python">if</code> Statements</h2>
-<pre ><code class="mypython" style="max-height:900px">def max3(a, b, c):
+<pre ><code class="mypython" style="max-height:900px; font-size:.8em">def max3(a, b, c):
     """Returns the largest of the three arguments a, b, and c."""
     if a > b:
         if a > c:
@@ -657,7 +657,7 @@ would this implementation of <code class="python">max3</code> fail?</li>
 </section>
 <section id="using-decomposition" class="slide level2">
 <h2>Using Decomposition</h2>
-<pre ><code class="mypython" style="max-height:900px">def max3(a, b, c):
+<pre ><code class="mypython" style="max-height:900px; font-size:.8em">def max3(a, b, c):
     """Returns the largest of the three arguments a, b, and c."""
     return max2( a, max2(b, c))
 
@@ -672,7 +672,7 @@ def max2(a, b):
 <h2>Problem 3</h2>
 <div class="cols">
 <div class="col" style="flex-grow:2">
-<div>
+<div style="font-size:.9em">
 <ul>
 <li class="fragment">As far as I know, the only computer scientist to
 win a Pulitzer prize is Douglas Hofstadter, who won one for <em>Gödel,
@@ -698,9 +698,40 @@ style="width:90.0%" /></p>
 </div>
 </div>
 </section>
+<section id="the-hailstone-function" class="slide level2">
+<h2>The Hailstone Function</h2>
+<div class="cols">
+<div class="col" style="font-size:.9em">
+<ul>
+<li>You task in this problem is to write a function
+<code class="python">hailstone</code> which takes as an argument the
+starting value of the sequence.</li>
+<li>It should then print off each number of the sequence on a new line,
+ending with the number one</li>
+<li>Upon reaching one, your function should <em>return</em> the number
+of steps it took to reach one from the starting value</li>
+</ul>
+</div>
+<div class="col">
+<pre ><code class="python-repl" style="max-height:900px; font-size:.8em">>>> steps = hailstone(12)
+12
+6
+3
+10
+5
+16
+8
+4
+2
+1
+>>> print(steps)
+9</code></pre>
+</div>
+</div>
+</section>
 <section id="the-collatz-conjecture" class="slide level2">
 <h2>The Collatz Conjecture</h2>
-<div class="cols">
+<div class="cols" style="align-items:center">
 <div class="col">
 <p><img data-src="https://imgs.xkcd.com/comics/collatz_conjecture.png"
 style="width:50.0%" /></p>
@@ -727,39 +758,44 @@ data-state="HailstoneTrace">
 </tr>
 <tr>
 <td>
+<div style="display: flex">
+<table style="flex-grow: 2">
+<tbody>
+<tr>
+<td style="padding:0px">
 <div id="HailstoneBanner" style="margin:0px; padding:0px;">
 Console
 </div>
 </td>
 </tr>
 <tr>
-<td>
+<td style="padding:0px">
 <div id="HailstoneConsole" style="margin:0px; padding:0px;">
 
 </div>
 </td>
 </tr>
-<tr>
-<td style="text-align:center;">
-<table class="CTControlStrip">
+</tbody>
+</table>
+<table class="CTControlStrip" style="flex-grow: 1">
 <tbody>
 <tr>
 <td>
 <img id=HailstoneTraceStepInButton
-     class="CTButton"
-     src="images/StepInControl.png"
-     alt="StepInButton" />
+       class="CTButton"
+       src="images/StepInControl.png"
+       alt="StepInButton" />
 </td>
 <td>
 <img id=HailstoneTraceResetButton
-     class="CTButton"
-     src="images/ResetControl.png"
-     alt="ResetButton" />
+       class="CTButton"
+       src="images/ResetControl.png"
+       alt="ResetButton" />
 </td>
 </tr>
 </tbody>
 </table>
-</td>
+</div>
 </tr>
 </tbody>
 </table>
