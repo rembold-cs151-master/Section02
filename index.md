@@ -1,7 +1,7 @@
 ---
 title: "Section 2: Basic Python"
 author: Jed Rembold and Eric Roberts
-date: "Week of September 9"
+date: "Week of January 27th"
 slideNumber: true
 theme: monokai
 highlightjs-theme: monokai
@@ -27,7 +27,7 @@ content_url: https://github.com/rembold-cs151-master/Section02
 
   <br>
 
-  `10 ** ((9 + 8) % 7) + 6 * (5 + 4 + 3 // 2 + 1)`{.inlinecode}
+  `10 ** ((9 + 8) % 7) + 6 * (5 + (4 + 3) // 2 + 1)`{.inlinecode}
 
 
 ## Precedence Trace #1a
